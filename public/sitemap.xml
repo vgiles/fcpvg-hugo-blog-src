@@ -2,10 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://fcpvg.work/categories/</loc>
+    <loc>https://fcpvg.work/posts/2022-05-09-book-reading-22-05-09/</loc>
+    <lastmod>2022-05-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fcpvg.work/tags/books/</loc>
+    <lastmod>2022-05-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fcpvg.work/</loc>
+    <lastmod>2022-05-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fcpvg.work/posts/</loc>
+    <lastmod>2022-05-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fcpvg.work/tags/reading/</loc>
+    <lastmod>2022-05-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fcpvg.work/tags/</loc>
+    <lastmod>2022-05-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fcpvg.work/tags/composition/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fcpvg.work/tags/ideas/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fcpvg.work/tags/reflection/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fcpvg.work/posts/2022-04-25-through-lines-from-finnissy-s-notion-of-transcription-to-my-current-and-past-work/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fcpvg.work/posts/2022-04-21-in-a-dust-storm-of-altruism/</loc>
+    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fcpvg.work/pages/about/</loc>
+  </url><url>
+    <loc>https://fcpvg.work/categories/</loc>
+  </url><url>
+    <loc>https://fcpvg.work/pages/</loc>
   </url>
 </urlset>
