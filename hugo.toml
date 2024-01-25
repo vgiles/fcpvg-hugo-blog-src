@@ -94,7 +94,7 @@ disqusShortname = ''
 [Languages.en-gb.params.author]
   avatar = "avatar.png" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "a space to write and share things that are interesting to me and my journey in music"
+  intro = "a space to write and share things from my journey in music"
   name = "vincent giles"
   description = "a composer and producer living on stolen wurundjeri land"
 
