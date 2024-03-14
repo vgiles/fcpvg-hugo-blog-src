@@ -13,7 +13,7 @@ It is really wonderful to hear this kind of music put to recording. I realise th
 
 Because the album produces dialogue between the roughly-1600s and the present, it's fascinating to hear this unfold, particularly as the final piece produces an affect that seems to mimic this hauntological act at the album-level. It was very moving to hear the past brought forward through each composer's approach to the instrument, at least two of them (if not all three) utilising pitch material outside the modern chromatic equal-tempered tuning. 
 
-As a caveat, I'm coming back to writing this on a subsequent listen on basic Apple earphones rather than a good amplifier and speakers, and it is *strikingly* different. I didn't expect it would be that big a difference in experience, but it is. On the other hand, even if the aesthetic experience is notably less for the lower quality listening conditions, it does invite a more critical engagement. This is very deep music that really needs to be listened to properly, with either good quality headphones without much, if any, background noise. Or on a decent stereo system.
+Note: I'm coming back to writing this on a subsequent listen on basic Apple earphones rather than a good amplifier and speakers, and it is *strikingly* different. I didn't expect it would be that big a difference in experience, but it is. On the other hand, even if the aesthetic experience is notably less for the lower quality listening conditions, it does invite a more critical engagement. This is very deep music that really needs to be listened to properly, with either good quality headphones without much, if any, background noise. Or on a decent stereo system.
 
 *Chaconne (for 1)* by [Alexander Garsden](http://www.alexandergarsden.com)
 
