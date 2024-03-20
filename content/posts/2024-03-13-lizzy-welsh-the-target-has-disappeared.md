@@ -1,7 +1,11 @@
 ---
+description: 'a short piece in response to Lizzy Welsh's album The Target Has Disappeared'
 layout: blog
 title: Lizzy Welsh - The Target Has Disappeared
 date: 2024-03-13T10:07:04.971Z
+tags:
+    - listening
+    - reflection
 ---
 I bought [this album](https://discreeteditions.bandcamp.com/album/the-target-has-disappeared) – the first by my friend, violinist [Lizzy Welsh](http://www.lizzywelsh.com) – on its release in the Australian winter of 2023, but I have only managed to listen to it now, in March 2024, to my detriment. I know Lizzy, and I know the work of the composers, and I wanted to commit the mental clarity and space, along with the physical listening space with appropriate equipment to reproduce the fidelity of the album, in order to doing the record justice. I avoided listening to the streaming version to which I have access, wanting to experience the album through good quality speakers, in space, with the time and attention that it deserves – not on a noisy train commute with a mediocre bluetooth connection. The most distraction I had was my dog tip-tapping around hoping to be taken for a walk.
 
