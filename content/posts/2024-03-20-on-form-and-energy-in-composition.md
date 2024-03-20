@@ -12,7 +12,7 @@ For quite a few years I have considered (at least in some of my pieces) a concep
 >  **Construction rules**
 > The rules for joining the polygons together may vary, and must therefore be stated for each distinct type of polyform. Generally, however, the following rules apply:
 >
-> ```
+> 
 > 1. Two basic polygons may be joined only along a common edge, and must share the entirety of that edge.
 >
 > 2. No two basic polygons may overlap.
@@ -20,7 +20,6 @@ For quite a few years I have considered (at least in some of my pieces) a concep
 > 3. A polyform must be connected (that is, all one piece; see [connected graph](x-dictionary:r:'Connected_graph?lang=en&signature=com.apple.DictionaryApp.Wikipedia' "Connected graph"), [connected space](x-dictionary:r:'Connected_space?lang=en&signature=com.apple.DictionaryApp.Wikipedia' "Connected space")). Configurations of disconnected basic polygons do not qualify as polyforms.
 >
 > 4. The mirror image of an asymmetric polyform is not considered a distinct polyform (polyforms are "double sided").
-> ```
 
 The analogy only goes so far, but nonetheless, I think there is a referential relationship. If one were to view the surface of a piece of music outside of time (and I mean this in the abstract sense of say, a 4D creature able to perceive time as its own dimension rather than existing within it) then one might not be able to see the basic building-blocks of the piece, but rather, that their impact on the surface, which would appear, presumably, as a static object. Modifications to that underlying structure - the constituent parts of the polyform - would presumably yield a different, albeit static, texture, in the same *form* at the scale of the object. 
 
@@ -30,30 +29,30 @@ Against this is an intuitively added 'lip roll position' staff that changes over
 
 # Present Conceptualisation
 
-In the last couple of months, after a period of relative inactivity, I've been trying to figure out aspects of my practice, reinvigorate it, and also consolidate my conceptual thinking about a lot of areas of music. The relationship between material and form, along with the potential conflict between generative (read algorithmic) work and more 'intuitive' work (a fairly silly dichotomy, really, but nonetheless part of my thinking). On the advice from Evan Johnson, whom I had some lessons/meetings/mentoring with, I've been looking again at the writings and work of Brian Ferneyhough[^1], and of others about him (such as Richard Toop[^2]), and have been struck by his writing on what he calls *lines of force*. I'm going to paraphrase from primarily the Collected Writings of Brian Ferneyhough[^1], mostly for my own consolidation of understanding and definition, but also to examine how to map the concept to my existing models of composition. A lot of this thinking has already been applied retrospectively, as above with the 'out of time' view on a work, for example. Ferneyhough doesn't explicitly say this, but I got that sense from an analogy of waves whereby there is a sense of movement but actually from a given framing, the wave is static, and you're experiencing the surface level affect of subcutaneous processes. For Ferneyhough, the lines of force of a composition are one part of the expressive potential; certain potential energies being accumulated and released with the intersections of these lines of force. I do think that for Ferneyhough, a *part* of these lines of force is akin to what I described above, but I think I was missing a crucial, lower-level component for the creation of energy at a localised level that then has impact at larger and larger scales. Put another way, where my structural thinking, as described above, gave rise to a large surface, the intersection of those structures is not necessarily apparent in as direct a way. It's more like variables that are being adjusted, yielding a different surface, rather than energies combining and dissolving, and feeding back into the system. Indeed, I think it is this feedback process that has been missing in my work. 
+In the last couple of months, after a period of relative inactivity, I've been trying to figure out aspects of my practice, reinvigorate it, and also consolidate my conceptual thinking about a lot of areas of music. The relationship between material and form, along with the potential conflict between generative (read algorithmic) work and more 'intuitive' work (a fairly silly dichotomy, really, but nonetheless part of my thinking). On the advice from Evan Johnson, whom I had some lessons/meetings/mentoring with, I've been looking again at the writings and work of Brian Ferneyhough[^1], and of others about him (such as Richard Toop[^2] [^3]), and have been struck by his writing on what he calls *lines of force*. I'm going to paraphrase from primarily the Collected Writings of Brian Ferneyhough[^1], mostly for my own consolidation of understanding and definition, but also to examine how to map the concept to my existing models of composition. A lot of this thinking has already been applied retrospectively, as above with the 'out of time' view on a work, for example. Ferneyhough doesn't explicitly say this, but I got that sense from an analogy of waves whereby there is a sense of movement but actually from a given framing, the wave is static, and you're experiencing the surface level affect of subcutaneous processes. For Ferneyhough, the lines of force of a composition are one part of the expressive potential; certain potential energies being accumulated and released with the intersections of these lines of force. I do think that for Ferneyhough, a *part* of these lines of force is akin to what I described above, but I think I was missing a crucial, lower-level component for the creation of energy at a localised level that then has impact at larger and larger scales. Put another way, where my structural thinking, as described above, gave rise to a large surface, the intersection of those structures is not necessarily apparent in as direct a way. It's more like variables that are being adjusted, yielding a different surface, rather than energies combining and dissolving, and feeding back into the system. Indeed, I think it is this feedback process that has been missing in my work. 
 
 Trying to describe this with language will be a bit clumsy, however a useful analogy may be a wave form. Noting that the following analogy is really seeing things at the surface, but with adjusted subcutaneous parameters that create *intersections* between the various lines of force. If we start with a simple sinusoidal wave form:
 
-![](/images/uploads/waveform-1.png)
+![Image of a simple waveform](/images/uploads/waveform-1.png)
 
 Now, if we apply an additional line of force (or process) to this wave form, specifically affecting the amplitude of the wave form in time, but periodically, we get the following (an enveloped wave form):
 
-![](/images/uploads/waveform-2.png)
+![Image of a simply affected waveform](/images/uploads/waveform-2.png)
 
 And finally, to demonstrate the underpinning flow, if I add a degree of variable randomness and an additional line of force, we get the following:
 
-![](/images/uploads/waveform-3.png)
+![Image of an affected waveform](/images/uploads/waveform-3.png)
 
 From this result, it is clear to see that the application of first one, then an additional two *lines of force* to results in a quite dramatically different surface (by analogy). Because of the state of flux of one of the lines of force, showing the same plot again (but separated by time) yields a different surface, showing the affect of that particular line of force on the momentary, but also larger structural unit.
 
 
-![](/images/uploads/waveform-4.png)
+![Image of an affected waveform at a different point in time](/images/uploads/waveform-4.png)
 
 This analogy shows somewhat my original conceptualisation of this phenomena, as a surface that is emergent based on underlying processes. A clear musical example is found in Messiaen's *Quatour pour la fin du temps*[^4] in the first movement, where in the piano part, there are *n* pitch aggregates that make up the harmonic rhythm, and there are *n* durations that make up the rhythm-proper. The interaction of these two sets of materials create a variable musical surface as each duration and pitch aggregate sounds together, but because they are unequal in quantity, an instability is produced in the interactions at a structural level in the piano part. It is unclear, however, what the *affect* on the other parts – *the intersections* – both in the moment of interaction between lines of force, and in how these affect the piece as a whole. Again, to make an analogy using waves, if one were to drop a rock into a pool, then you see the splash and the outward ripples that eventually turn still. What one doesn't see is the impact that the rock has both in the moment, as it moves beneath the surface of the water, nor longer-term. 
 
 The image below is a still from the anime series Neon Genesis Evangelion. I couldn't find a complete animation, but I think the visual shows this kind of contradirectional warping in a way that illustrates what I'm trying to get at. Each line of force has potential energy, which impacts the other lines of force around it in ways that are both localised and also have implications for the longer form of the piece.
 
-![Image of warping beams](https://wiki.evageeks.org/images/7/76/Positron_Ramiel.jpg)![[
+![Image of warping beams](https://wiki.evageeks.org/images/7/76/Positron_Ramiel.jpg)
 
 This is an attempt by DALL-E to visualise what I am describing. Feeding the whole text to this point into it generated something that I think actually does visualise the idea somewhat, though in a very AI-ish way, and with the limitation of not being able to see the movement over time. Still, interesting.
 
