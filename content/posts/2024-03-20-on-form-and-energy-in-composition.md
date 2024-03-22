@@ -5,6 +5,7 @@ layout: blog
 title: On form and energy in composition
 date: 2024-03-20T04:41:48.489Z
 ---
+
 # Introduction: Conceptual Background
 
 > Dozens of silvery, threadlike lines supporting one another; energies across spectra and forms all interlinked and state-changing in what seems to be a chaotic, yet utterly controlled, order.
