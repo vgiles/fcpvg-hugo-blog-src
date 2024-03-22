@@ -4,7 +4,6 @@ summary: 'This essay is an attempt to think through and articulate ideas from my
 layout: blog
 title: 'On form and energy in composition'
 date: 2024-03-20T04:41:48.489Z
-toc: true
 ---
 
 # Introduction: Conceptual Background
