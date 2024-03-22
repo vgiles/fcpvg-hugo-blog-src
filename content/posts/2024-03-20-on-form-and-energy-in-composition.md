@@ -2,8 +2,9 @@
 description: 'a personal essay thinking through the concept of lines of force'
 summary: 'This essay is an attempt to think through and articulate ideas from my existing compositional practice, and to understand what composer Brian Ferneyhough means by "lines of force" and how these two concepts relate to my current compositional thinking.'
 layout: blog
-title: On form and energy in composition
+title: 'On form and energy in composition'
 date: 2024-03-20T04:41:48.489Z
+toc: true
 ---
 
 # Introduction: Conceptual Background
