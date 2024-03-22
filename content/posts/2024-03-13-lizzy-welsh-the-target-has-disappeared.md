@@ -1,6 +1,7 @@
 ---
-description: 'a short piece in response to Lizzy Welsh's album The Target Has Disappeared'
+description: "a short piece in response to Lizzy Welsh's album The Target Has Disappeared"
 layout: blog
+author: vincent giles
 title: Lizzy Welsh - The Target Has Disappeared
 date: 2024-03-13T10:07:04.971Z
 tags:
