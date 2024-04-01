@@ -1,9 +1,8 @@
 ---
 description: 'an essay about how we arbitrarily dismiss things based on perceived complexity, and how this might not really reflect the music'
 layout: blog
-title: Arbitrary Complexity
-author: Vincent Giles
-date: 2024-04-01T15:51:48
+title: 'Arbitrary Complexity'
+date: 2024-04-01T15:51:48.489Z
 ---
 
 # The Arbitrary Dismissal of Complexity
