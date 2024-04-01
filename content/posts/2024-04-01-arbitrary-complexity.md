@@ -2,7 +2,7 @@
 description: 'an essay about how we arbitrarily dismiss things based on perceived complexity, and how this might not really reflect the music'
 layout: blog
 title: 'Arbitrary Complexity'
-date: 2024-04-01T15:51:48.489Z
+date: 2024-04-01
 ---
 
 # The Arbitrary Dismissal of Complexity
@@ -22,6 +22,7 @@ I didn't do this in the zine, but I hypothesise now that there is an economic fa
 > But “complexity” is all too often used, in certain musical (musicological) circles at least, as a comparative term, as something whose magnitude in a given context may be measured with what passes (none too convincingly) for scientific precision. (And, by extension, commodified and purchased by the pound.) This seems to me no more than a symptom of the kind of _fear of perception_ which takes refuge in contorted quasi-rationalisations when faced with the potential perturbation of a _musical experience_. 
 > 
 > – Richard Barrett
+
 (see footnote[^2])
 
 I understand that not all art/music resonates with everybody; admittedly I used to get frustrated at this in the "but this is so wonderful!" but I get it; not everything resonates. I don't know that it's a matter of taste, but everybody's physiology is so input to that physiology is going to resonate differently. What I find interesting, and what is the point of this essay (and the zine that this is elaborating on) is that the *boundaries* of acceptable 'complexity' seem really quite arbitrary, or inherent complexity in various musics seem to be completely ignored or overlooked or unacknowledged. What follows is not, by any means, an attempt at classification by the category of relative 'complexity', rather to show that much that we take for granted as being 'simple and accessible' by no means not-complex, and that thinking about this might (I hope, at least) open one up to the possibility of a richness of experience that they may be missing out on. I would also add that despite the fact that I love 'complex' music and art, there are works that are for me vastly more demanding to listen to, and I don't always want to put that demand on myself (or have it put on me). We live complex lives and sometimes perceived complexity can be a balm for that, and other times not.
