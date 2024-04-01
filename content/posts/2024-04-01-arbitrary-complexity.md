@@ -3,7 +3,7 @@ description: 'an essay about how we arbitrarily dismiss things based on perceive
 layout: blog
 title: Arbitrary Complexity
 author: Vincent Giles
-date: '2024-04-01T15:51'
+date: 2024-04-01T15:51:48
 ---
 
 # The Arbitrary Dismissal of Complexity
