@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../vg-website-src"
+		},
+		{
+			"path": "../hugo-theme-sam"
+		}
+	],
+	"settings": {}
+}
