@@ -8,7 +8,7 @@ date: '2024-04-01T15:51'
 
 # The Arbitrary Dismissal of Complexity
 
-![[/images/uploads/complexity-scaffold-image.png]]
+![Image of a short piece from the zine, scaffold #1](/images/uploads/complexity-scaffold-image.png)
 
 > **If something is boring after two minutes, try it for four. If still boring, then eight. Then sixteen. Then thirty-two. Eventually one discovers that it is not boring at all.**
 > 
@@ -22,7 +22,7 @@ I didn't do this in the zine, but I hypothesise now that there is an economic fa
 
 > But “complexity” is all too often used, in certain musical (musicological) circles at least, as a comparative term, as something whose magnitude in a given context may be measured with what passes (none too convincingly) for scientific precision. (And, by extension, commodified and purchased by the pound.) This seems to me no more than a symptom of the kind of _fear of perception_ which takes refuge in contorted quasi-rationalisations when faced with the potential perturbation of a _musical experience_. 
 > 
-> – Richard Barrett^2
+> – Richard Barrett[^2]
 
 I understand that not all art/music resonates with everybody; admittedly I used to get frustrated at this in the "but this is so wonderful!" but I get it; not everything resonates. I don't know that it's a matter of taste, but everybody's physiology is so input to that physiology is going to resonate differently. What I find interesting, and what is the point of this essay (and the zine that this is elaborating on) is that the *boundaries* of acceptable 'complexity' seem really quite arbitrary, or inherent complexity in various musics seem to be completely ignored or overlooked or unacknowledged. What follows is not, by any means, an attempt at classification by the category of relative 'complexity', rather to show that much that we take for granted as being 'simple and accessible' by no means not-complex, and that thinking about this might (I hope, at least) open one up to the possibility of a richness of experience that they may be missing out on. I would also add that despite the fact that I love 'complex' music and art, there are works that are for me vastly more demanding to listen to, and I don't always want to put that demand on myself (or have it put on me). We live complex lives and sometimes perceived complexity can be a balm for that, and other times not.
 
@@ -52,13 +52,13 @@ The following text shows the first 17 onset points in time taken by analysing th
 
 I then wanted to see how that would quantise into notation, and used OpenMusic to do so. Now looking at the onsets I'm not convinced that this is accurate, but quantisation always lacks nuance. 
 
-![[/images/uploads/dua-lipa-surface-quant.png]]
+![An image of a music score showing some quantisation of these timepoints (plus some)](/images/uploads/dua-lipa-surface-quant.png)
 
 This shows an interesting potential perceptual surface to the music based purely on its rhythmic values, and it is *very clearly* complex, with microfluctuations around the beat (indicating a type of written-out swing). Even if this represents some level of the surface of the song, I think this shows what I'm getting at quite clearly.
 
 Finally, the image below shows the original analysis that this was derived from (including the tempo). So while I don't think there is a strong correlation between this and the notation, what this does show is that at the surface, there is a significant amount of rhythmic variation indicating onset variability and non equidistant rhythmic interplay at the level of the surface.
 
-![[/images/uploads/dua-lipa-analysis.png]]
+![An image of the spectrogram, plus additional layers of detail in the form of the rhythm onset points](/images/uploads/dua-lipa-analysis.png)
 
 While this analysis is pretty weak, it does encourage a deeper examination of how we seemingly apply an arbitrary threshold to what we perceive in music, and we can seemingly tolerate certain levels of complexity in a given context (say, swung rhythm and microtiming in this Dua Lipa song) that we find more difficult when abstracted further at subsurface levels. 
 
