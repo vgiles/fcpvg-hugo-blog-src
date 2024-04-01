@@ -1,7 +1,7 @@
 ---
 description: 'an essay about how we arbitrarily dismiss things based on perceived complexity, and how this might not really reflect the music'
 layout: blog
-title: 'Arbitrary Complexity'
+title: 'Arbitrary Complexity Thresholds'
 date: 2024-04-01
 ---
 
