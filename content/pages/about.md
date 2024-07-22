@@ -4,7 +4,7 @@ description: 'vincent giles writing'
 author: vincent giles
 ---
 I am an Australian composer based in Naarm (Melbourne). My music explores the boundaries of perception, instability, and the glitches produced by both humans and machines. In my life/career so far, I have:
-- Worked as a bass palyer
+- Worked as a bass player
 - Worked as a journalist
 - Studied music composition
 - Worked as a composer

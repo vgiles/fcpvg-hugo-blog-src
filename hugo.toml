@@ -68,6 +68,11 @@ disqusShortname = ''
     name = 'Producer'
     url = 'https://www.faultycat.com.au'
     weight = 50
+  [[Languages.en-gb.menu.main]]
+    pageRef="links"
+    name = 'links'
+    url = '/links/'
+    weight = 60
 
 [Languages.en-gb.params]
   sitename = "fcpvg.work"
