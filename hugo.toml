@@ -70,7 +70,7 @@ disqusShortname = ''
     weight = 50
   [[Languages.en-gb.menu.main]]
     pageRef="links"
-    name = 'links'
+    name = 'Links'
     url = '/links/'
     weight = 60
 
