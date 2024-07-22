@@ -128,5 +128,9 @@ name = "instagram"
 url = "https://instagram.com/composervince"
 
 [[params.socialIcons]]
+name = "mastodon"
+url = "https://social.toplap.org/@drveej"
+
+[[params.socialIcons]]
 name = "Rss"
 url = "index.xml"
