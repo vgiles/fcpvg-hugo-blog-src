@@ -1,3 +1,4 @@
+
 "use strict";
 
 let emitter;
@@ -19,6 +20,7 @@ function setup() {
     scoreLayoutSetup();
     describe('A canvas');
     nodeColour = [random(255), random(255), random(255)];
+    // position(0,0);
 
     emitter = new PlayerNode(random(windowWidth-20), random(windowHeight-20), random(100)+10, nodeColour);
 }
@@ -54,7 +56,8 @@ class PlayerNode {
 }
 
 function scoreLayoutSetup() {
-    createCanvas(windowWidth-20, windowHeight-20);
+    let mainCanvas = createCanvas(windowWidth-20, windowHeight-20);
+    mainCanvas.position(0,0);
     background(200);
 
     // Construct title
@@ -115,16 +118,21 @@ function swSketch(p) {
     let sw = new StopWatch(3); 
 
     p.setup = function () {
-        p.createCanvas(200, 200);
+        let secondCanvas = p.createCanvas(250, 100);
+        secondCanvas.position(0,0);
+        // p.position(0, 0);
         p.background(150);
+        // p.position(20,20);
         sw.start();
     };
 
     p.draw = function () {
         p.stopWatch();
+        // p.background(150);
     };
 
     p.stopWatch = function () {
+        // mainCanvas.clear();
         textAlign(LEFT);
         textSize(24);
         fill(255, 0, 100);
@@ -135,14 +143,16 @@ function swSketch(p) {
         } else {
             stroke(255);
             s = sw.minute() + " : " + sw.second(); 
-            stroke(0);   
+            // stroke(0);   
         }
         // noFill();
         // ellipse(80, 40, 120, 80);
-        // fill(255);
+        fill(255);
         text(s, 40, 40 + (fontSize/3));
         // p.background(200);
-        p.background(150);
+        // p.background(150);
+        p.clear();
+        // mainCanvas.background(150);
     };
 }
 
