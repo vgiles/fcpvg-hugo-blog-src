@@ -1,19 +1,39 @@
 "use strict";
 
+// const { log } = require("console");
+
 let emitter;
 let nodeColour;
-let windowTop;
-let windowRight;
-let windowLeft;
-let windowBottom;
 let fontLyric;
 let fontScoreLabel;
 let headerSize = 100;
 let footerSize = 80;
-let pieceDuration = 3;
+let pieceDuration = 1;
+const dynamicRange = Array(10).fill().map((element, index) => (index + 1) * 10);
+
+
 
 
 //NB Top 70 pixels are HEADER
+
+// Some ideas:
+// Restrain appearing objects
+// Animate appearing objects
+//  - Vibrating = tremolo/flutter/growl
+//  - Size (set a list of sizes to choose from)
+//  - Create a 'start timer' button as the best approximation of sync
+//  - Text overlay = sing the indicated text
+//  - Markov chance of stacked sound
+//  - Markov chance of image = quote snippets of memorised tunes of any style
+//  - Repeating sequences (show(), hide(), duration)
+//  - ppppp = quietest = as if whispering only to yourself (instrument/voice) (v. introspective)
+//  - pppp = as if softly talking to yourself (introspective)
+//  - ppp = standard very soft
+//  - pp = standard interpretation
+//  - ff = standard interpretation
+//  - fff = standard very loud
+//  - ffff = as if yelling into the void
+//  - fffff = so loud that the the sound should distort/clip/break/be uncontrollable
 
 
 function setup() {
@@ -22,7 +42,8 @@ function setup() {
     nodeColour = [random(255), random(255), random(255)];
     // position(0,0);
 
-    emitter = new PlayerNode(random(windowWidth-20), random(windowHeight-20), random(100)+10, nodeColour);
+    emitter = new PlayerNode(random(windowWidth-20), random(windowHeight-20), randChoice(dynamicRange), nodeColour);
+    print(dynamicRange);
 }
 
 function draw() {
@@ -114,6 +135,17 @@ function setLineDash(list) {
     drawingContext.setLineDash(list);
   }
 
+
+function randChoice(arr) {
+    return arr[Math.floor(Math.random() * arr.length)]
+}
+
+
+
+
+
+
+
 function swSketch(p) {
     let sw = new StopWatch(pieceDuration); 
 
@@ -136,7 +168,7 @@ function swSketch(p) {
     p.stopWatch = function () {
         // mainCanvas.clear();
         p.textAlign(CENTER);
-        p.textSize(48);
+        p.textSize(40);
         p.fill(255, 0, 100);
         var s = "";
         if (sw.countdownFinished()) {

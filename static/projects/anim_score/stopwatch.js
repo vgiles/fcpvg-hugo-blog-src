@@ -80,7 +80,7 @@ class StopWatch {
     }
     
     countdownFinished() {
-        var returns = this.countdownMin != 0 && this.minute() <= 0 && this.second() <= 0;
+        var returns = this.countdownMin != 0 && this.minute() == 0 && this.second() <= 0;
         if (returns) this.init();
         return returns;
     }
