@@ -10,6 +10,7 @@ let fontLyric;
 let fontScoreLabel;
 let headerSize = 100;
 let footerSize = 80;
+let pieceDuration = 3;
 
 
 //NB Top 70 pixels are HEADER
@@ -56,7 +57,7 @@ class PlayerNode {
 
 function scoreLayoutSetup() {
     let mainCanvas = createCanvas(windowWidth-20, windowHeight-20);
-    mainCanvas.position(0,0);
+    // mainCanvas.position(5,5);
     background(200);
 
     // Construct title
@@ -85,7 +86,7 @@ function scoreLayoutSetup() {
     textSize(12);
     textStyle(ITALIC);
     textAlign(LEFT);
-    text("extended register ⬆️", 20, 190);
+    text("extended register/overtones ⬆️", 20, 190);
     text("high register ⬆️", 20, 390);
     text("mid register ⬆️", 20, 590);
     text("low register ⬆️", 20, 790);
@@ -114,43 +115,46 @@ function setLineDash(list) {
   }
 
 function swSketch(p) {
-    let sw = new StopWatch(3); 
+    let sw = new StopWatch(pieceDuration); 
 
     p.setup = function () {
-        let secondCanvas = p.createCanvas(250, 100);
-        secondCanvas.position(0,0);
-        // p.position(0, 0);
+        let secondCanvas = p.createCanvas(180, 80);
         p.background(150);
+        secondCanvas.position(20,20);
+        // p.position(0, 0);
+
         // p.position(20,20);
         sw.start();
     };
 
     p.draw = function () {
+        p.background(150);
         p.stopWatch();
         // p.background(150);
     };
 
     p.stopWatch = function () {
         // mainCanvas.clear();
-        textAlign(LEFT);
-        textSize(24);
-        fill(255, 0, 100);
+        p.textAlign(CENTER);
+        p.textSize(48);
+        p.fill(255, 0, 100);
         var s = "";
         if (sw.countdownFinished()) {
-            stroke(0, 127, 200);
+            p.stroke(0, 127, 200);
             s = "FINISHED.";
         } else {
-            stroke(255);
+            p.stroke(255);
             s = sw.minute() + " : " + sw.second(); 
-            // stroke(0);   
+            p.background(150);
+            p.stroke(0);
         }
         // noFill();
         // ellipse(80, 40, 120, 80);
-        fill(255);
-        text(s, 40, 40 + (fontSize/3));
+        p.fill(255);
+        p.text(s, 90, 45 + (fontSize/3));
         // p.background(200);
         // p.background(150);
-        p.clear();
+        // p.clear();
         // mainCanvas.background(150);
     };
 }
