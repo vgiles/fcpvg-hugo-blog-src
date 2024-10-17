@@ -10,6 +10,8 @@ let headerSize = 100;
 let footerSize = 80;
 let pieceDuration = 1;
 const dynamicRange = Array(10).fill().map((element, index) => (index + 1) * 10);
+let currentTime;
+let borkbork;
 
 
 
@@ -41,14 +43,30 @@ function setup() {
     describe('A canvas');
     nodeColour = [random(255), random(255), random(255)];
     // position(0,0);
-
-    emitter = new PlayerNode(random(windowWidth-20), random(windowHeight-20), randChoice(dynamicRange), nodeColour);
-    print(dynamicRange);
+    borkbork = emitter;
+    // print(dynamicRange);
 }
 
 function draw() {
-    emitter.show();
+    // let currentEmitter;
+    // if (currentTime < 40) {
+    //     currentEmitter = emitter.hide();
+    // } else {
+    //     currentEmitter = emitter.show();
+    // }
 }
+
+function mousePressed()  {
+    spawnEmitter(random(windowWidth-20), random(windowHeight-20), randChoice(dynamicRange));
+    // scoreLayoutSetup();
+}
+
+function mouseReleased() {
+    despawnEmitter();
+    // scoreLayoutSetup();
+
+}
+
 class PlayerNode {
     constructor(x, y, radius, colour) {
         // x and y is position
@@ -60,20 +78,33 @@ class PlayerNode {
 
     show() {
         // construct the circle
+        // this.radius = radius;
+        // this.y = y;
         stroke(20);
         strokeWeight(2);
         circle(this.x, this.y, this.radius);
         fill(this.colour);
     }
+//random(windowWidth-20), random(windowHeight-20), randChoice(dynamicRange)
+    // hide() {
+    //     noStroke();
+    //     noFill();
+    // }
+    // spawn(xPos, yPos, dynamic) { // make separate functions
+        
+    // }
+    // newLocation() {
 
-    hide() {
-        stroke(0);
-        fill(0);
-    }
+    // }
+}
+// does this need to be in a new graphics thing? -- yes, use graphics buffer.
+function spawnEmitter(xPos, yPos, dynamic) {
+    emitter = new PlayerNode(xPos, yPos, dynamic, nodeColour);
+    emitter.show();
+}
 
-    newLocation() {
-
-    }
+function despawnEmitter() {
+    emitter = null;
 }
 
 function scoreLayoutSetup() {
@@ -162,6 +193,7 @@ function swSketch(p) {
     p.draw = function () {
         p.background(150);
         p.stopWatch();
+        currentTime = sw.second();
         // p.background(150);
     };
 
