@@ -1,6 +1,6 @@
 "use strict";
 
-// const { log } = require("console");
+
 
 let emitter;
 let nodeColour;
@@ -11,7 +11,9 @@ let footerSize = 80;
 let pieceDuration = 1;
 const dynamicRange = Array(10).fill().map((element, index) => (index + 1) * 10);
 let currentTime;
-let borkbork;
+let eg;
+let windowSizeW;
+let windowSizeH;
 
 
 
@@ -42,8 +44,8 @@ function setup() {
     scoreLayoutSetup();
     describe('A canvas');
     nodeColour = [random(255), random(255), random(255)];
+    // print(windowSizeH*0.231);
     // position(0,0);
-    borkbork = emitter;
     // print(dynamicRange);
 }
 
@@ -57,7 +59,7 @@ function draw() {
 }
 
 function mousePressed()  {
-    spawnEmitter(random(windowWidth-20), random(windowHeight-20), randChoice(dynamicRange));
+    spawnEmitter(random(windowSizeW-20), random(windowSizeH-20));
     // scoreLayoutSetup();
 }
 
@@ -99,16 +101,27 @@ class PlayerNode {
 }
 // does this need to be in a new graphics thing? -- yes, use graphics buffer.
 function spawnEmitter(xPos, yPos, dynamic) {
-    emitter = new PlayerNode(xPos, yPos, dynamic, nodeColour);
-    emitter.show();
+    if (eg) {
+        image(eg, xPos, yPos);
+    } else {
+        eg = createGraphics(150,150);
+        eg.background(0);
+        eg.emitter = new PlayerNode(eg.width/2, eg.height/2, randChoice(dynamicRange), nodeColour);
+        eg.emitter.show();
+    }
+    // emitter = new PlayerNode(xPos, yPos, dynamic, nodeColour);
 }
 
-function despawnEmitter() {
-    emitter = null;
+function despawnEmitter() { // this will be hide the graphics buffer
+    eg.remove();
+    eg = undefined;
 }
 
 function scoreLayoutSetup() {
-    let mainCanvas = createCanvas(windowWidth-20, windowHeight-20);
+    // let mainCanvas = createCanvas(windowWidth-20, windowHeight-20);
+    createCanvas(windowWidth-20, windowHeight-20);
+    windowSizeW = windowWidth;
+    windowSizeH = windowHeight;
     // mainCanvas.position(5,5);
     background(200);
 
@@ -138,27 +151,27 @@ function scoreLayoutSetup() {
     textSize(12);
     textStyle(ITALIC);
     textAlign(LEFT);
-    text("extended register/overtones ⬆️", 20, 190);
-    text("high register ⬆️", 20, 390);
-    text("mid register ⬆️", 20, 590);
-    text("low register ⬆️", 20, 790);
-    text("subtones ⬇️", 20, 820);
+    text("extended register/overtones ⬆️", 20, (windowSizeH*0.231)-10);
+    text("high register ⬆️", 20, (windowSizeH*0.462)-10);
+    text("mid register ⬆️", 20, (windowSizeH*0.694)-10);
+    text("low register ⬆️", 20, (windowSizeH*0.925)-10);
+    text("subtones ⬇️", 20, (windowSizeH*0.925)+20);
     textAlign(CENTER);
-    text("⬅️ roll/bow pos/equiv ➡️", windowWidth/2, 190);
+    text("⬅️ roll/bow pos/equiv ➡️", windowWidth/2, (windowSizeH*0.231)-10);
 
     // construct score grid lines noting that the size of the 'screen' should be at least 1040 pixels high and 820 wide. Standard laptop screen.
 
     stroke(150);
-    line(windowWidth-windowWidth, 100, windowWidth-20, 100);
+    line(windowWidth-windowWidth, windowSizeH*0.115, windowWidth-20, windowSizeH*0.115);
     stroke(80);
     strokeWeight(3);
-    line(20, 200, windowWidth-40, 200);
-    line(20, 800, windowWidth-40, 800);
+    line(20, windowSizeH*0.231, windowWidth-40, windowSizeH*0.231);
+    line(20, windowSizeH*0.925, windowWidth-40, windowSizeH*0.925);
     stroke(180);
     setLineDash([5, 5]);
-    line(windowWidth/2, 200, windowWidth/2, 800);
-    line(20, 400, windowWidth-40, 400);
-    line(20, 600, windowWidth-40, 600);
+    line(windowWidth/2, windowSizeH*0.231, windowWidth/2, windowSizeH*0.925);
+    line(20, windowSizeH*0.462, windowWidth-40, windowSizeH*0.462);
+    line(20, windowSizeH*0.694, windowWidth-40, windowSizeH*0.694);
     setLineDash([]);
 }
 
