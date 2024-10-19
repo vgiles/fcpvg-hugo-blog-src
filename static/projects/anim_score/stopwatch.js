@@ -1,7 +1,7 @@
 "use strict";
 
 let font = "Arial";
-let fontSize = 28;
+let fontSize = 20;
 
 // from https://github.com/n1ckfg/StopWatchExample/blob/master/p5js/js/stopwatch.js
 

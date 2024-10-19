@@ -1,6 +1,6 @@
 "use strict";
 
-
+// I think I need to remake this to have the canvases as separate layers
 
 let emitter;
 let nodeColour;
@@ -41,33 +41,43 @@ let windowSizeH;
 
 
 function setup() {
+    createCanvas(windowWidth-20, windowHeight-20);
+    windowSizeW = windowWidth;
+    windowSizeH = windowHeight;
     scoreLayoutSetup();
     describe('A canvas');
     nodeColour = [random(255), random(255), random(255)];
+    eg = createGraphics(150,150);
+    eg.emitter = new PlayerNode(150, 150, randChoice(dynamicRange), nodeColour);
+    eg.emitter.show();
     // print(windowSizeH*0.231);
     // position(0,0);
     // print(dynamicRange);
 }
 
 function draw() {
+    scoreLayoutSetup();
     // let currentEmitter;
     // if (currentTime < 40) {
     //     currentEmitter = emitter.hide();
     // } else {
     //     currentEmitter = emitter.show();
     // }
+    if (eg) {
+        image(eg, mouseX, mouseY);
+    }
 }
 
-function mousePressed()  {
-    spawnEmitter(random(windowSizeW-20), random(windowSizeH-20));
-    // scoreLayoutSetup();
-}
+// function mouse()  {
+//     spawnEmitter(random(windowSizeW-20), random(windowSizeH-20));
+//     // scoreLayoutSetup();
+// }
 
-function mouseReleased() {
-    despawnEmitter();
-    // scoreLayoutSetup();
+// function doubleClicked() {
+//     despawnEmitter();
+//     // scoreLayoutSetup();
 
-}
+// }
 
 class PlayerNode {
     constructor(x, y, radius, colour) {
@@ -86,6 +96,7 @@ class PlayerNode {
         strokeWeight(2);
         circle(this.x, this.y, this.radius);
         fill(this.colour);
+        // stroke(1);
     }
 //random(windowWidth-20), random(windowHeight-20), randChoice(dynamicRange)
     // hide() {
@@ -101,30 +112,25 @@ class PlayerNode {
 }
 // does this need to be in a new graphics thing? -- yes, use graphics buffer.
 function spawnEmitter(xPos, yPos, dynamic) {
-    if (eg) {
-        image(eg, xPos, yPos);
-    } else {
-        eg = createGraphics(150,150);
-        eg.background(0);
-        eg.emitter = new PlayerNode(eg.width/2, eg.height/2, randChoice(dynamicRange), nodeColour);
-        eg.emitter.show();
-    }
+    image(eg, xPos, yPos);
+
     // emitter = new PlayerNode(xPos, yPos, dynamic, nodeColour);
 }
 
 function despawnEmitter() { // this will be hide the graphics buffer
+    // eg.clear();
     eg.remove();
-    eg = undefined;
+    // eg = undefined;
 }
+
+
 
 function scoreLayoutSetup() {
     // let mainCanvas = createCanvas(windowWidth-20, windowHeight-20);
-    createCanvas(windowWidth-20, windowHeight-20);
-    windowSizeW = windowWidth;
-    windowSizeH = windowHeight;
+
     // mainCanvas.position(5,5);
     background(200);
-
+    fill(0);
     // Construct title
     textFont("Times New Roman");
     textStyle(ITALIC);
@@ -142,7 +148,7 @@ function scoreLayoutSetup() {
     textStyle(NORMAL);
     textSize(20);
     textAlign(RIGHT);
-    text("vincent giles", windowWidth-20, 45);
+    text("vincent giles", windowWidth-40, 45);
 
 
     // construct score labels
@@ -194,9 +200,9 @@ function swSketch(p) {
     let sw = new StopWatch(pieceDuration); 
 
     p.setup = function () {
-        let secondCanvas = p.createCanvas(180, 80);
+        let secondCanvas = p.createCanvas(180, 60);
         p.background(150);
-        secondCanvas.position(20,20);
+        secondCanvas.position((windowSizeW/2)+200,20);
         // p.position(0, 0);
 
         // p.position(20,20);
@@ -228,7 +234,7 @@ function swSketch(p) {
         // noFill();
         // ellipse(80, 40, 120, 80);
         p.fill(255);
-        p.text(s, 90, 45 + (fontSize/3));
+        p.text(s, p.width/2, p.height/2 + (fontSize*0.77));
         // p.background(200);
         // p.background(150);
         // p.clear();
