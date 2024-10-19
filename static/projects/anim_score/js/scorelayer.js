@@ -13,19 +13,19 @@ function scoreLayer(sl) {
         sl.textStyle(ITALIC);
         sl.textSize(45);
         sl.textAlign(CENTER);
-        sl.text("working title", windowWidth/2, 35);
+        sl.text(compositionTitle, windowWidth/2, 35);
 
         // construct year
         sl.textStyle(NORMAL);
         sl.textSize(20);
         sl.textAlign(CENTER);
-        sl.text("2024", windowWidth/2, 60);
+        sl.text(compYear, windowWidth/2, 60);
 
         // construct composer
         sl.textStyle(NORMAL);
         sl.textSize(20);
         sl.textAlign(RIGHT);
-        sl.text("vincent giles", windowWidth-40, 45);
+        sl.text(composerName, windowWidth-40, 45);
     
         // construct score labels
 

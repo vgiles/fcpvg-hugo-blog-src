@@ -1,6 +1,42 @@
+// let emitter;
+let secondLayer;
+
+function emitterLayer(el) {
+    el.setup = function() {
+        secondLayer = el.createCanvas(windowWidth-20, windowHeight-20);
+        // print(windowWidth, windowHeight);
+        el.emitter = new PlayerNode(windowWidth/2, windowHeight/2, randChoice(dynamicRange), nodeColour);
+        secondLayer.position(0, 0);
+        el.emitter.show();
+        el.frameRate(15);
+
+        // el.background(20);
+        
+    };
+    el.draw = function() {
+        if (mouseIsPressed === true) {
+            clear();
+            el.emitter.hop(random(windowWidth), random(windowHeight), randChoice(dynamicRange));
+            el.emitter.show();
+            el.emitter.checkEdges();
+        } else {
+            clear();
+        }
+
+        // el.emitter.clear();
+        // el.background(255, 255, 255, 50);
+
+        // el.clear();
 
 
-
+        // el.clear();
+        // el.emitter.show();
+        // el.clear();
+    };
+    // randChoice = function () {
+    //     return arr[Math.floor(Math.random() * arr.length)];
+    // };
+}
 
 // function setup() {
 //     createCanvas(windowWidth-20, windowHeight-20);
@@ -30,27 +66,50 @@ class PlayerNode {
 
     show() {
         // construct the circle
-        // this.radius = radius;
-        // this.y = y;
         stroke(20);
         strokeWeight(2);
-        circle(this.x, this.y, this.radius);
         fill(this.colour);
-        // stroke(1);
+        circle(this.x, this.y, this.radius);
     }
 
-}
-// does this need to be in a new graphics thing? -- yes, use graphics buffer.
-function spawnEmitter(xPos, yPos, dynamic) {
-    image(eg, xPos, yPos);
+    hop(x, y, radius) {
+        // clear();
+        // el.clear();
+        this.radius = radius;
+        this.x += x;
+        this.y += y;
+    }
 
-    // emitter = new PlayerNode(xPos, yPos, dynamic, nodeColour);
+    checkEdges() {
+        if (this.x > windowWidth) {
+            this.x = this.x - windowWidth;
+        } else if (this.x < 0) {
+            this.x = windowWidth - this.x;
+        }
+    
+        if (this.y > windowHeight) {
+            this.y = this.y - windowHeight;
+        } else if (this.y < 0) {
+            this.y = windowHeight - this.y;
+        }
+    }
+    // clean() {
+    //     clear();
+    // }
 }
 
-function despawnEmitter() { // this will be hide the graphics buffer
-    // eg.clear();
-    eg.remove();
-    // eg = undefined;
-}
+// }
+// // does this need to be in a new graphics thing? -- yes, use graphics buffer.
+// function spawnEmitter(xPos, yPos, dynamic) {
+//     image(eg, xPos, yPos);
+
+//     // emitter = new PlayerNode(xPos, yPos, dynamic, nodeColour);
+// }
+
+// function despawnEmitter() { // this will be hide the graphics buffer
+//     // eg.clear();
+//     eg.remove();
+//     // eg = undefined;
+// }
 
 

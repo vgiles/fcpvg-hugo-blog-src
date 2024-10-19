@@ -15,9 +15,13 @@ let eg;
 let windowSizeW;
 let windowSizeH;
 // let firstLayer;
+let compositionTitle = "making bread";
+let composerName = "vincent giles";
+let compYear = "2024";
 
 function setup() {
     createCanvas(windowWidth-20, windowHeight-20);
+    nodeColour = [random(255), random(255), random(255)];
     windowSizeW = windowWidth;
     windowSizeH = windowHeight;
 }
@@ -35,9 +39,6 @@ function swSketch(p) {
         let secondCanvas = p.createCanvas(180, 60);
         p.background(150);
         secondCanvas.position((windowSizeW/2)+200,20);
-        // p.position(0, 0);
-
-        // p.position(20,20);
         sw.start();
     };
 
@@ -74,9 +75,13 @@ function swSketch(p) {
     };
 }
 
-// randChoice = function(arr) {
-//     return arr[Math.floor(Math.random() * arr.length)];
-// }
+function randChoice(arr) {
+    return arr[Math.floor(Math.random() * arr.length)];
+}
 
-new p5(scoreLayer);
+new p5(emitterLayer);
 new p5(swSketch);
+new p5(scoreLayer);
+
+
+
