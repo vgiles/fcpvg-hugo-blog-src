@@ -1,7 +1,7 @@
 "use strict";
 
 // I think I need to remake this to have the canvases as separate layers
-
+let secondLayer;
 let emitter;
 let nodeColour;
 let fontLyric;
@@ -10,14 +10,20 @@ let headerSize = 100;
 let footerSize = 80;
 let pieceDuration = 1;
 const dynamicRange = Array(10).fill().map((element, index) => (index + 1) * 10);
-let currentTime;
+let currentSecond;
 let eg;
 let windowSizeW;
 let windowSizeH;
 // let firstLayer;
-let compositionTitle = "making bread";
+let compositionTitle = "still life";
 let composerName = "vincent giles";
 let compYear = "2024";
+let el;
+let sl;
+let sw;
+let currentMinute;
+
+
 
 function setup() {
     createCanvas(windowWidth-20, windowHeight-20);
@@ -28,6 +34,24 @@ function setup() {
 
 function draw() {
     // apply graphics layers here
+    // if (mouseIsPressed === true) {
+    //     clear();
+    //     el.emitter.newPos(random(windowWidth), random(windowHeight), randChoice(dynamicRange));
+    //     el.emitter.show();
+    //     el.emitter.checkEdges();
+    // } else {
+    //     clear();
+    // }
+
+    // if (sw.second <= 40 && sw.second >= 30) {
+    //     clear();
+    //     el.emitter.newPos(random(windowWidth), random(windowHeight), randChoice(dynamicRange));
+    //     el.emitter.show();
+    //     el.emitter.checkEdges();
+    //     el.emitter.animateCresc();
+    // } else {
+    //     clear();
+    // }
 }
 
 // stopwatch
@@ -45,7 +69,8 @@ function swSketch(p) {
     p.draw = function () {
         p.background(150);
         p.stopWatch();
-        currentTime = sw.second();
+        currentSecond = sw.second();
+        currentMinute = sw.minute();
         // p.background(150);
     };
 
@@ -78,6 +103,75 @@ function swSketch(p) {
 function randChoice(arr) {
     return arr[Math.floor(Math.random() * arr.length)];
 }
+
+function emitterLayer(el) {
+    el.setup = function() {
+        secondLayer = el.createCanvas(windowWidth-20, windowHeight-20);
+        // print(windowWidth, windowHeight);
+        el.emitter = new PlayerNode(windowWidth/2, windowHeight/2, randChoice(dynamicRange), nodeColour);
+        secondLayer.position(0, 0);
+        el.emitter.show();
+        el.frameRate(60);
+
+        // el.background(20);
+        
+    };
+    el.draw = function() {
+        // if (mouseIsPressed === true) {
+        //     clear();
+        //     el.emitter.newPos(random(-10, +10), random(-10, +10), randChoice(dynamicRange));
+        //     el.emitter.show();
+        //     el.emitter.checkEdges();
+        // } else {
+        //     clear();
+        // }
+
+        if (currentSecond <= 40 && currentSecond >= 30) {
+            clear();
+            el.emitter.newPos(random(-10, 10), random(-10, 10), randChoice(dynamicRange));
+            el.emitter.show();
+            el.emitter.checkEdges();
+            el.emitter.animateCresc();
+        } else {
+            clear();
+        }
+        // el.emitter.clear();
+        // el.background(255, 255, 255, 50);
+
+        // el.clear();
+
+
+        // el.clear();
+        // el.emitter.show();
+        // el.clear();
+    };
+
+    // function mouseClicked() {
+    //     clear();
+    //     el.emitter.newPos(random(windowWidth), random(windowHeight), randChoice(dynamicRange));
+    //     el.emitter.show();
+    //     el.emitter.checkEdges();
+    // };
+    // randChoice = function () {
+    //     return arr[Math.floor(Math.random() * arr.length)];
+    // };
+}
+
+// function setup() {
+//     createCanvas(windowWidth-20, windowHeight-20);
+//     windowSizeW = windowWidth;
+//     windowSizeH = windowHeight;
+//     scoreLayoutSetup();
+//     describe('A canvas');
+//     nodeColour = [random(255), random(255), random(255)];
+//     eg = createGraphics(150,150);
+//     eg.emitter = new PlayerNode(150, 150, randChoice(dynamicRange), nodeColour);
+//     eg.emitter.show();
+//     // print(windowSizeH*0.231);
+//     // position(0,0);
+//     // print(dynamicRange);
+// }
+
 
 new p5(emitterLayer);
 new p5(swSketch);
