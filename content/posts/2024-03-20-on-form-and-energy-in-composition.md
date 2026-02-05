@@ -60,10 +60,6 @@ The image below is a still from the anime series Neon Genesis Evangelion. I coul
 
 ![Image of warping beams](https://wiki.evageeks.org/images/7/76/Positron_Ramiel.jpg)
 
-This is an attempt by DALL-E to visualise what I am describing. Feeding the whole text to this point into it generated something that I think actually does visualise the idea somewhat, though in a very AI-ish way, and with the limitation of not being able to see the movement over time. Still, interesting.
-
-![AI-made conceptualisation of the concept presented herein](/images/uploads/dalle-2.webp "visual conceptualisation by AI")
-
 As I continue to interpret and understand the concept of lines of force, I'm not interested in removing my original polyformal concept and replacing it, but rather integrating the lines of force into that mode of thinking. In particular, the local and global impact of the intersections or interactions of the lines of force. While I can imagine how this works, it is a very mentally challenging idea to play with. In principle, applying the lines of force should yield an emergent form derived from the multiple layers of activity that exist beneath it.
 
 # Present Work in Progress Implementation
