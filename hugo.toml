@@ -77,6 +77,11 @@ disqusShortname = ''
     name = 'Links'
     url = '/links/'
     weight = 60
+  [[Languages.en-gb.menu.main]]
+    pageRef="support"
+    name = "ko-fi"
+    url = 'https://ko-fi.com/fcp'
+    weight = 70
 
 [Languages.en-gb.params]
   sitename = "fcpvg.work"
@@ -180,6 +185,9 @@ url = "index.xml"
   [[params.scanlines.profile.buttons]]
     name = "About"
     url = "/pages/about/"
+  [[params.scanlines.profile.buttons]]
+    name = "Ko-Fi"
+    url = "https://ko-fi.com/fcp"
   [params.scanlines.effects]
     enabled = true         # Master toggle for all effects
 
