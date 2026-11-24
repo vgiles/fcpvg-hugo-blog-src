@@ -188,6 +188,12 @@ url = "index.xml"
   [[params.scanlines.profile.buttons]]
     name = "Ko-Fi"
     url = "https://ko-fi.com/fcp"
+  [[params.scanlines.profile.buttons]]
+    name = "Dots and Lines"
+    url = "https://www.vgiles.net"
+  [[params.scanlines.profile.buttons]]
+    name = "Production"
+    url = "https://faultycat.com.au"
   [params.scanlines.effects]
     enabled = true         # Master toggle for all effects
 
