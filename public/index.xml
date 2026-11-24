@@ -1,56 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>fcpvg.work on fcpvg.work - vincent giles&#39; writing</title>
-    <link>https://fcpvg.work/</link>
-    <description>Recent content in fcpvg.work on fcpvg.work - vincent giles&#39; writing</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>fcpvg.work - vincent giles&#39; writing</title>
+    <link>http://localhost:1313/</link>
+    <description>faulty cat press – a space to write: music, games, philosophy</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 09 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://fcpvg.work/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stardew Valley, Hauntology, Belonging</title>
+      <link>http://localhost:1313/posts/2024-07-05-stardew-valley-arts/</link>
+      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-07-05-stardew-valley-arts/</guid>
+      <description>a messy rambling essay about stardew valley, sort of</description>
+    </item>
+    <item>
+      <title>Burnout: Economics, Alienation, and Directionality</title>
+      <link>http://localhost:1313/posts/2024-04-21-burnout/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-04-21-burnout/</guid>
+      <description>an essay about three factors that have contributed to burnout that I have experienced and am starting to come to the other side of</description>
+    </item>
+    <item>
+      <title>Arbitrary Complexity Thresholds</title>
+      <link>http://localhost:1313/posts/2024-04-01-arbitrary-complexity/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-04-01-arbitrary-complexity/</guid>
+      <description>an essay about how we arbitrarily dismiss things based on perceived complexity, and how this might not really reflect the music</description>
+    </item>
+    <item>
+      <title>On form and energy in composition</title>
+      <link>http://localhost:1313/posts/2024-03-20-on-form-and-energy-in-composition/</link>
+      <pubDate>Wed, 20 Mar 2024 04:41:48 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-03-20-on-form-and-energy-in-composition/</guid>
+      <description>a personal essay thinking through the concept of lines of force</description>
+    </item>
+    <item>
+      <title>Lizzy Welsh - The Target Has Disappeared</title>
+      <link>http://localhost:1313/posts/2024-03-13-lizzy-welsh-the-target-has-disappeared/</link>
+      <pubDate>Wed, 13 Mar 2024 10:07:04 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-03-13-lizzy-welsh-the-target-has-disappeared/</guid>
+      <description>a short piece in response to Lizzy Welsh&#39;s album The Target Has Disappeared</description>
+    </item>
     <item>
       <title>Book reading, 22-05-09</title>
-      <link>https://fcpvg.work/posts/2022-05-09-book-reading-22-05-09/</link>
+      <link>http://localhost:1313/posts/2022-05-09-book-reading-22-05-09/</link>
       <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://fcpvg.work/posts/2022-05-09-book-reading-22-05-09/</guid>
-      
-      <description>I really value reading, and books, as a medium. As I read more about Australian indigenous knowledge systems, I also lean towards embodied knowledge systems (not so much in the practice-led research dogma promoted within Australian higher education institutes), at least as much as I can understand them having not been raised within such a knowledge system. Since I was raised within the Western book-based knowledge system, that is what I know.</description>
-      
+      <guid>http://localhost:1313/posts/2022-05-09-book-reading-22-05-09/</guid>
+      <description>A short reflection on recently completed readings</description>
     </item>
-    
     <item>
       <title>Through-lines from Finnissy&#39;s notion of transcription to my current and past work</title>
-      <link>https://fcpvg.work/posts/2022-04-25-through-lines-from-finnissy-s-notion-of-transcription-to-my-current-and-past-work/</link>
+      <link>http://localhost:1313/posts/2022-04-25-through-lines-from-finnissy-s-notion-of-transcription-to-my-current-and-past-work/</link>
       <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://fcpvg.work/posts/2022-04-25-through-lines-from-finnissy-s-notion-of-transcription-to-my-current-and-past-work/</guid>
-      
-      <description>This essay offers some clarifying remarks - mostly for myself - about composer Michael Finnissy&amp;rsquo;s concept of transcription, along with some thoughts and reflections on how it connects to current and previous work.</description>
-      
+      <guid>http://localhost:1313/posts/2022-04-25-through-lines-from-finnissy-s-notion-of-transcription-to-my-current-and-past-work/</guid>
+      <description>This essay offers some clarifying remarks - mostly for myself - about composer Michael Finnissy&#39;s concept of transcription, along with some thoughts and reflections on how it connects to current and previous work.</description>
     </item>
-    
     <item>
       <title>in a dust storm of altruism</title>
-      <link>https://fcpvg.work/posts/2022-04-21-in-a-dust-storm-of-altruism/</link>
+      <link>http://localhost:1313/posts/2022-04-21-in-a-dust-storm-of-altruism/</link>
       <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://fcpvg.work/posts/2022-04-21-in-a-dust-storm-of-altruism/</guid>
-      
-      <description>In this short post I talk about how part of Rebecca Solnit&amp;rsquo;s Hope in the Dark shows resonance and potential for me as a source (or inspiration) for text in a new composition involving voice.</description>
-      
+      <guid>http://localhost:1313/posts/2022-04-21-in-a-dust-storm-of-altruism/</guid>
+      <description>A short post about Rebecca Solnit&#39;s Hope in the Dark</description>
     </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://fcpvg.work/pages/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://fcpvg.work/pages/about/</guid>
-      
-      <description>I&amp;rsquo;m a composer, primarily, and a producer secondarily. I&amp;rsquo;m sometimes an academic and scholar. In my career, I have:
-Worked in retail Freelanced as a bass player Freelanced as a music journalist Studied music composition Taught bass guitar Done live sound engineering Lectured in music composition and production, along with music theory, critical theory, and other things Got a PhD in sound design and composition Written a few things critiquing the arts/scene in Australia Dabbled in computer &amp;amp; web programming Learned to train a weird dog Learned to cook a lot of vegan/plant-based food </description>
-      
-    </item>
-    
   </channel>
 </rss>

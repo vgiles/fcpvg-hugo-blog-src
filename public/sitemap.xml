@@ -2,43 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://fcpvg.work/posts/2022-05-09-book-reading-22-05-09/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-07-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-07-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2024-07-05-stardew-valley-arts/</loc>
+    <lastmod>2024-07-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2024-04-21-burnout/</loc>
+    <lastmod>2024-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2024-04-01-arbitrary-complexity/</loc>
+    <lastmod>2024-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2024-03-20-on-form-and-energy-in-composition/</loc>
+    <lastmod>2024-03-20T04:41:48+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/listening/</loc>
+    <lastmod>2024-03-13T10:07:04+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2024-03-13-lizzy-welsh-the-target-has-disappeared/</loc>
+    <lastmod>2024-03-13T10:07:04+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/reflection/</loc>
+    <lastmod>2024-03-13T10:07:04+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-03-13T10:07:04+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2022-05-09-book-reading-22-05-09/</loc>
     <lastmod>2022-05-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fcpvg.work/tags/books/</loc>
+    <loc>http://localhost:1313/tags/books/</loc>
     <lastmod>2022-05-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fcpvg.work/</loc>
+    <loc>http://localhost:1313/tags/reading/</loc>
     <lastmod>2022-05-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fcpvg.work/posts/</loc>
-    <lastmod>2022-05-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://fcpvg.work/tags/reading/</loc>
-    <lastmod>2022-05-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://fcpvg.work/tags/</loc>
-    <lastmod>2022-05-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://fcpvg.work/tags/composition/</loc>
+    <loc>http://localhost:1313/tags/composition/</loc>
     <lastmod>2022-04-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fcpvg.work/tags/ideas/</loc>
+    <loc>http://localhost:1313/tags/ideas/</loc>
     <lastmod>2022-04-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fcpvg.work/tags/reflection/</loc>
+    <loc>http://localhost:1313/posts/2022-04-25-through-lines-from-finnissy-s-notion-of-transcription-to-my-current-and-past-work/</loc>
     <lastmod>2022-04-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fcpvg.work/posts/2022-04-25-through-lines-from-finnissy-s-notion-of-transcription-to-my-current-and-past-work/</loc>
-    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://fcpvg.work/posts/2022-04-21-in-a-dust-storm-of-altruism/</loc>
+    <loc>http://localhost:1313/posts/2022-04-21-in-a-dust-storm-of-altruism/</loc>
     <lastmod>2022-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fcpvg.work/pages/about/</loc>
+    <loc>http://localhost:1313/pages/about/</loc>
   </url><url>
-    <loc>https://fcpvg.work/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://fcpvg.work/pages/</loc>
+    <loc>http://localhost:1313/pages/links/</loc>
+  </url><url>
+    <loc>http://localhost:1313/pages/</loc>
   </url>
 </urlset>

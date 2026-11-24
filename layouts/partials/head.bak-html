@@ -1,5 +1,6 @@
 <head>
-    {{- partial "meta/main.html" . }}
+    <!--{{- partial "meta/main.html" . }}-->
+    {{- partial "partials/main.html" . }}
     {{- hugo.Generator }}
 
     {{/* Canonical link, RSS */}}

@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>reflection on fcpvg.work - vincent giles&#39; writing</title>
-    <link>https://fcpvg.work/tags/reflection/</link>
-    <description>Recent content in reflection on fcpvg.work - vincent giles&#39; writing</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Reflection | fcpvg.work - vincent giles&#39; writing</title>
+    <link>http://localhost:1313/tags/reflection/</link>
+    <description>Reflection</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://fcpvg.work/tags/reflection/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Mar 2024 10:07:04 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/reflection/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lizzy Welsh - The Target Has Disappeared</title>
+      <link>http://localhost:1313/posts/2024-03-13-lizzy-welsh-the-target-has-disappeared/</link>
+      <pubDate>Wed, 13 Mar 2024 10:07:04 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-03-13-lizzy-welsh-the-target-has-disappeared/</guid>
+      <description>a short piece in response to Lizzy Welsh&#39;s album The Target Has Disappeared</description>
+    </item>
     <item>
       <title>Through-lines from Finnissy&#39;s notion of transcription to my current and past work</title>
-      <link>https://fcpvg.work/posts/2022-04-25-through-lines-from-finnissy-s-notion-of-transcription-to-my-current-and-past-work/</link>
+      <link>http://localhost:1313/posts/2022-04-25-through-lines-from-finnissy-s-notion-of-transcription-to-my-current-and-past-work/</link>
       <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://fcpvg.work/posts/2022-04-25-through-lines-from-finnissy-s-notion-of-transcription-to-my-current-and-past-work/</guid>
-      
-      <description>This essay offers some clarifying remarks - mostly for myself - about composer Michael Finnissy&amp;rsquo;s concept of transcription, along with some thoughts and reflections on how it connects to current and previous work.</description>
-      
+      <guid>http://localhost:1313/posts/2022-04-25-through-lines-from-finnissy-s-notion-of-transcription-to-my-current-and-past-work/</guid>
+      <description>This essay offers some clarifying remarks - mostly for myself - about composer Michael Finnissy&#39;s concept of transcription, along with some thoughts and reflections on how it connects to current and previous work.</description>
     </item>
-    
   </channel>
 </rss>

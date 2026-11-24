@@ -4,7 +4,11 @@ baseURL = 'https://fcpvg.work/'
 # This is what goes in <html lang="">
 languageCode = 'en-us'
 
-theme = "hugo-blog-awesome"
+[module]
+  [[module.imports]]
+    path = "github.com/wthouse/scanlines"
+
+# theme = "hugo-blog-awesome"
 
 # This defines how dates are formatted
 defaultContentLanguage = "en-gb"
@@ -80,7 +84,7 @@ disqusShortname = ''
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
   # You can take a look at layouts/index.html for more information.
-  description = "a space to write and share things from my journey in music"
+  description = "faulty cat press – a space to write: music, games, philosophy"
   mainSections = ['posts']
   toc = false # set to false to disable table of contents 'globally'
   tocOpen = false # set to true to open table of contents by default
@@ -100,9 +104,9 @@ disqusShortname = ''
 [Languages.en-gb.params.author]
   avatar = "avatar.png" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "a space to write and share things from my journey in music"
+  intro = "a space to write: music, games, philosophy"
   name = "vincent giles"
-  description = "a composer and producer living on stolen wurundjeri land"
+  description = "a composer, game designer, and general rastabout living on stolen wurundjeri land"
 
 # Allow to override webmanifest options
 [Languages.en-gb.params.webmanifest]
@@ -134,3 +138,48 @@ url = "https://social.toplap.org/@drveej"
 [[params.socialIcons]]
 name = "Rss"
 url = "index.xml"
+
+[params.scanlines]
+  # Color scheme: "amber" (default), "green", "blue", "white"
+  colorScheme = "white"
+  # Homepage style: "blog" (default) or "profile"
+  # "blog"    — site tagline + recent posts
+  # "profile" — profile header + buttons (landing page, nav hidden)
+  homepage = "profile"
+
+  # Favicon path (relative to static folder)
+  favicon = "/favicon.ico"
+
+  # Date format (Go date format string)
+  dateFormat = "2006-01-02"
+
+  # Show reading time on posts
+  showReadingTime = true
+
+  # Show tags on post listings
+  showTags = true
+
+  # Section that holds your posts. The homepage, archive and 404 read from it —
+  # change this if your content lives in e.g. content/articles/.
+  contentSection = "posts"
+
+  # Default Open Graph / Twitter share image, used when a page sets no `image`.
+  # Pages with a `summary_large_image` card need this (or a per-page image).
+  ogImage = "/images/og-default.png"
+
+  [params.scanlines.profile]
+  name = "fcpvg dot work"
+  subtitle = "faulty cat press – a space to write: music, games, philosophy"
+  avatar = "/images/avatar.png"  # Optional
+  bio = "I'm a composer, game designer, and general rastabout living just outside of Naarm (Melbourne) in Australia. This is my blog."
+
+  # Buttons shown on profile homepage
+  [[params.scanlines.profile.buttons]]
+    name = "Posts"
+    url = "/posts/"
+  [[params.scanlines.profile.buttons]]
+    name = "About"
+    url = "/about/"
+  [params.scanlines.effects]
+    enabled = true         # Master toggle for all effects
+

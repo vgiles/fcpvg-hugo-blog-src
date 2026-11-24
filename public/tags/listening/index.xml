@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Listening | fcpvg.work - vincent giles&#39; writing</title>
+    <link>http://localhost:1313/tags/listening/</link>
+    <description>Listening</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 13 Mar 2024 10:07:04 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/listening/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lizzy Welsh - The Target Has Disappeared</title>
+      <link>http://localhost:1313/posts/2024-03-13-lizzy-welsh-the-target-has-disappeared/</link>
+      <pubDate>Wed, 13 Mar 2024 10:07:04 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-03-13-lizzy-welsh-the-target-has-disappeared/</guid>
+      <description>a short piece in response to Lizzy Welsh&#39;s album The Target Has Disappeared</description>
+    </item>
+  </channel>
+</rss>
