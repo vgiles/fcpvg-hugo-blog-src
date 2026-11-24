@@ -60,7 +60,7 @@ disqusShortname = ''
   [[Languages.en-gb.menu.main]]
     pageRef="about"
     name = 'About'
-    url = '/about/'
+    url = '/pages/about/'
     weight = 30
   [[Languages.en-gb.menu.main]]
     pageRef="composer"
@@ -179,7 +179,7 @@ url = "index.xml"
     url = "/posts/"
   [[params.scanlines.profile.buttons]]
     name = "About"
-    url = "/about/"
+    url = "/pages/about/"
   [params.scanlines.effects]
     enabled = true         # Master toggle for all effects
 
