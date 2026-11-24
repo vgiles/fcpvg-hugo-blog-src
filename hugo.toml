@@ -111,7 +111,7 @@ disqusShortname = ''
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "a space to write: music, games, philosophy"
   name = "vincent giles"
-  description = "a composer, game designer, and general rastabout living on stolen wurundjeri land"
+  description = "a composer, game designer, and general rapscallion living on stolen wurundjeri land"
 
 # Allow to override webmanifest options
 [Languages.en-gb.params.webmanifest]
@@ -176,7 +176,7 @@ url = "index.xml"
   name = "fcpvg dot work"
   subtitle = "faulty cat press – a space to write: music, games, philosophy"
   avatar = "/images/avatar.png"  # Optional
-  bio = "I'm a composer, game designer, and general rastabout living just outside of Naarm (Melbourne) in Australia. This is my blog."
+  bio = "I'm a composer, game designer, and general rapscallion living just outside of Naarm (Melbourne) in Australia. This is my blog."
 
   # Buttons shown on profile homepage
   [[params.scanlines.profile.buttons]]
