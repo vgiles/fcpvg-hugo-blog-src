@@ -2,7 +2,7 @@
 
 backend:
   name: github
-  repo: user/fcpvg-hugo-blog-src
+  repo: vgiles/fcpvg-hugo-blog-src
 
 media_folder: /public/media
 public_folder: /media
