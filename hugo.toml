@@ -2,7 +2,7 @@ title = "fcpvg.work - vincent giles' writing"
 baseURL = 'https://fcpvg.work/'
 
 # This is what goes in <html lang="">
-languageCode = 'en-us'
+languageCode = 'en-gb'
 
 [module]
   [[module.imports]]
