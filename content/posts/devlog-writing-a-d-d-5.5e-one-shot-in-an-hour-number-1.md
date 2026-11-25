@@ -3,7 +3,7 @@ title: 'Devlog: writing a D&D 5.5E one-shot in an hour, number 1'
 date: 2026-11-25
 ---
 
-I recently watched a video on youtube by the GM/creator Ginny Di about creating a D&D one-shot in an hour. The video resonated with me for a couple of reasons: first, it was sensible and clear, which is always nice. Second, the strategy of using time-limits for creative purposes is one I’ve used a lot in my creative and teaching work over the years; creating within limitations more broadly[1][2] and of course creating something in a time-restrained way in an effort to ‘get out of your own way’ in the creative process. But prior to watching the video, for whatever reason I’d not connected it to creating TTRPG adventures/modules, despite my prep being fairly minimal except when I need to think about the longer trajectory of a campaign, which happens maybe every five or six sessions (depending on how the sessions go). So I wanted to give it a shot. This is what I did and my reflections on the process and outcome, and this post is a kind of companion piece to a reel I posted on Instagram (linky). 
+I recently watched a [video on youtube](https://youtu.be/leD-mHXOyO0) by the GM/creator [Ginny Di](http://ginnydi.com) about creating a D&D one-shot in an hour. The video resonated with me for a couple of reasons: first, it was sensible and clear, which is always nice. Second, the strategy of using time-limits for creative purposes is one I’ve used a lot in my creative and teaching work over the years; creating within limitations more broadly[1][2] and of course creating something in a time-restrained way in an effort to ‘get out of your own way’ in the creative process. But prior to watching the video, for whatever reason I’d not connected it to creating TTRPG adventures/modules, despite my prep being fairly minimal except when I need to think about the longer trajectory of a campaign, which happens maybe every five or six sessions (depending on how the sessions go). So I wanted to give it a shot. This is what I did and my reflections on the process and outcome, and this post is a kind of companion piece to a reel I posted on [Instagram](https://www.instagram.com/reel/DgBK5TNzbty/?hvrq=MzRlODBiNWFlZA==&avpt=MzRlODBiNWFlZA==). 
 
 CW: This is obviously political in its story and includes themes of displacement, slavery, and vengeance.
 
@@ -24,25 +24,17 @@ Even though the history of the town is recent, its formation was one that involv
 This is all about the context, and I only got so far in this, and did not finish setting DCs and other related mechanical features. But here is a list of the points of interest as it currently exists:
 
 * Tharrow's Horseshoe (Inn, fairly busy, some travellers and some locals out to unwind after a day of labour). A slight air of fear hangs on the place though. 
-
 * The Mayoral Manor (where the Mayor and Deputy Mayor and their families reside.)
-
 * Burnt stonework at the edge of town (the remnants of some previous village)
-
 * Local market (a place where local vendors deal their goods, includes an alchemist who appears to know a little arcane lore)
-
 * Forest edge (where the town gives way to forest, many hewn trees are left)
-
 * The forest proper (the light of the world gives way to shadows quickly in this dense forest. Spookywooky)
-
 * Town square (has a community notice board, mostly full of missing persons notices)
 
 #### Combat Encounter 1
 
 * Revenant will attack the adventurers but mostly so it can escape the town for its hiding place in the forest, seeing them as a threat to its objective. If at any point the revenant drops below 70% HP it will flee on its next turn. 
-
 * In the off chance the party defeats it on the first interaction, it will return the following day in a larger body. 
-
 * On the body they will find a drawing of two goblins, both of whom are in service to the Mayoral Manor.
 
 #### Final Encounter
@@ -50,7 +42,6 @@ This is all about the context, and I only got so far in this, and did not finish
 Two options depending on the course of actions:
 
 1. Combat encounter with the revenent, noting that in order to truly save the town, not only does its body need to be killed, but it has to have a specific spell cast on it, otherwise it will re-spawn somewhere else and eventually find its way back. If the PCs have identified it, they will know that, and they will also know whether they can or cannot complete the quest this way. Recommend a Cleric be part of the party.
-
 2. Social encounter with the councillors to let them know it's a revenent, and that it will keep coming unless they make amends. This would follow from some kind of social encounter with the revenant, logically. 
 
 Of course, this may not be how things pan out. 
