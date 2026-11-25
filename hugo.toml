@@ -1,4 +1,4 @@
-title = "fcpvg.work - vincent giles' writing"
+title = "fcpvg.work - vincent's writing"
 baseURL = 'https://fcpvg.work/'
 
 # This is what goes in <html lang="">
@@ -110,7 +110,7 @@ disqusShortname = ''
   avatar = "avatar.png" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "a space to write: music, games, philosophy"
-  name = "vincent giles"
+  name = "vincent"
   description = "a composer, game designer, and general rapscallion living on stolen wurundjeri land"
 
 # Allow to override webmanifest options
